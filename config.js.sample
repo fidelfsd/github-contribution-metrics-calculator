@@ -1,10 +1,14 @@
+// Configuration object for the GitHub Contribution Metrics Calculator
 export const config = {
    github: {
-      apiToken: "your-api-token",
+      apiToken: "your-api-token", // Replace with your actual GitHub API token
    },
+
+   // Weights assigned to different metrics for calculating the participation score
    weights: {
-      additions: 7,
-      deletions: 1,
-      commits: 3,
+      additions: 7, // Weight assigned to additions
+      deletions: 1, // Weight assigned to deletions
+      commits: 3,   // Weight assigned to commits
    },
 };
+
