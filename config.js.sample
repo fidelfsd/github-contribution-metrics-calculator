@@ -1,0 +1,10 @@
+export const config = {
+   github: {
+      apiToken: "your-api-token",
+   },
+   weights: {
+      additions: 7,
+      deletions: 1,
+      commits: 3,
+   },
+};
